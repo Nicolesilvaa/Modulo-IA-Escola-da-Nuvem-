@@ -16,7 +16,7 @@ d = 15
 e = 12
 f = 6
 
-soma = c + d + e + f
+sum = c + d + e + f
 media = soma / 4
 
 print("\nA soma é:", soma)
