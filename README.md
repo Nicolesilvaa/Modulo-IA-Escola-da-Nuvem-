@@ -6,9 +6,10 @@ Este repositório foi criado para armazenar as tarefas e exercícios do **módul
 
 ```plaintext
 .
-├── Exercicios_simples_python/
-│   ├── ...
-│   └── ...
+├── python-atividades/
+│   ├── exercicios_repositorio_Rafael_Santos/
+    ├── exercicios_complementares/
+│   └── exercicios_slide/
 ├── IA/
 │   ├── ...
 │   └── ...
