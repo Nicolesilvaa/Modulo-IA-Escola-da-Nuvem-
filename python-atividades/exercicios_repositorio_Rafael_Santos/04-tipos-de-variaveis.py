@@ -10,4 +10,10 @@ y = "Dez"
 typeX = str(type(x))
 typeY =  str(type(y))
 
-print("\nEsse é o tipo das variaveis x e y, respectivamente: " + typeX + " " + typeY + "\n")
+print("\nEsses são os tipos das variaveis x e y, respectivamente: " + typeX + " " + typeY + "\n")
+
+x = 10.0
+y = 18
+
+print("\nEsse saõ  os novos tipos das variaveis x e y, respectivamente: " + typeX + " " + typeY + "\n")
+
