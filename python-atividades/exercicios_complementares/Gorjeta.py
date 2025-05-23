@@ -13,3 +13,14 @@
 
 # â€‹Retorna:â€‹
 # O valor da gorjeta calculadaâ€‹â€‹
+
+def calculateTip(billAmount, tipPercentage):
+    tipValue = billAmount * (tipPercentage / 100)
+
+    return tipValue
+
+billAmount = float(input("Digite o valor da conta: "))
+tipPercentage = float(input("Digite a porcentagem da gorjeta (ex: 10, 15, 20): "))
+
+tip = calculateTip(billAmount, tipPercentage)
+print(f"Gorjeta: R${tip:.2f}")

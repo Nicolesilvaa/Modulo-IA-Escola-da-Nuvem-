@@ -13,3 +13,10 @@
 # - Operacoes matematicas basicas sao realizadas com operadores aritmeticos.
 # - O simbolo de adicao permite somar dois valores numericos.
 # - Para que o resultado seja compreendido, ele deve ser apresentado de forma legivel na tela.
+
+numberOne = 10
+numberTwo = 25
+
+sumResult = numberOne + numberTwo
+
+print(f"A soma de {numberOne} e {numberTwo} é {sumResult}.")

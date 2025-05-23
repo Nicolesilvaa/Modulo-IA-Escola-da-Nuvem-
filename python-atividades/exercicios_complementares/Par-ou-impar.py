@@ -7,3 +7,11 @@
 # Para cada numero inserido, o programa deve informar se e par ou impar. 
 # Se o usuario inserir algo que nao seja um numero inteiro, o programa deve informar o erro e continuar. 
 # No final, o programa deve exibir a quantidade de numeros pares e impares inseridos.
+
+number = int(input("Digite um número: "))
+
+if number % 2 == 0:
+    print("O número é par.")
+    
+else:
+    print("O número é ímpar.")
