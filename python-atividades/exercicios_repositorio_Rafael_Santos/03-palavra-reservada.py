@@ -1,4 +1,4 @@
 #Encontre o erro e corrija-o
-class = "Tecnologia"
+word = "Tecnologia"
 
-print(class)
+print("\n" + word + "\n")
