@@ -18,3 +18,16 @@
 # - Trata-se de uma aplicacao classica que ajuda a desenvolver o raciocinio para multiplas condicoes encadeadas.
 # - Teste com diferentes anos para validar a logica.
 
+yearInput = input("Digite um ano: ")
+
+if not yearInput.isdigit():
+    print("Entrada inválida. Por favor, digite um ano válido.")
+
+else:
+    year = int(yearInput)
+
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        print(f"O ano {year} é bissexto\n")
+
+    else:
+        print(f"O ano {year} não é bissexto\n")

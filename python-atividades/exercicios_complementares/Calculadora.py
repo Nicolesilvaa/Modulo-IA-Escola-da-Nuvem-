@@ -17,3 +17,5 @@
 # - Use try/except para capturar e tratar os erros apropriadamente.
 # - Apos cada erro, o programa deve informar o usuario sobre o erro e solicitar nova entrada.
 # - Quando uma operacao e concluida com sucesso, exiba o resultado e encerre o programa.
+
+
