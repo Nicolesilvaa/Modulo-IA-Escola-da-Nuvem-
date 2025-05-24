@@ -14,9 +14,6 @@ def isStrongPassword(password):
         return False
     return True
 
-print("==========================================")
-print("#       VERIFICADOR DE SENHA FORTE        #")
-print("==========================================\n")
 
 while True:
     userInput = input("Digite uma senha (ou 'sair' para encerrar): ")

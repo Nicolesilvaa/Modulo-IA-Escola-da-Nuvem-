@@ -19,3 +19,40 @@
 # - Quando uma operacao e concluida com sucesso, exiba o resultado e encerre o programa.
 
 
+while True:
+    try:
+        firstInput = input("Digite o primeiro número: \n")
+        firstNumber = float(firstInput)
+
+        secondInput = input("Digite o segundo número: \n")
+        secondNumber = float(secondInput)
+
+        operation = input("Digite a operação (+, -, *, /): ")
+
+        if operation not in ['+', '-', '*', '/']:
+            print("Operação inválida. Tente novamente.\n")
+            continue
+
+        if operation == '+':
+            result = firstNumber + secondNumber
+
+        elif operation == '-':
+            result = firstNumber - secondNumber
+
+        elif operation == '*':
+            result = firstNumber * secondNumber
+
+        elif operation == '/':
+            if secondNumber == 0:
+                raise ZeroDivisionError("Não é possível dividir por zero.")
+            
+            result = firstNumber / secondNumber
+
+        print(f"\nResultado: {firstNumber} {operation} {secondNumber} = {result}")
+        break
+
+    except ValueError:
+        print("Erro: entrada inválida. Certifique-se de digitar números válidos.\n")
+        
+    except ZeroDivisionError as e:
+        print(f"Erro: {e}\n")
